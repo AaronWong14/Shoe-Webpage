@@ -1,0 +1,16 @@
+cd desktop
+cd Shoe-Webpage
+
+git status
+git add .
+git commit -m "test commit"
+git push origin aaronBranch
+git checkout -b aaronBranch (not everytime, just once)
+go to git website and click on compare and pull request
+if able to merge: click on "create pull request"
+merge pull request
+confirm merge
+
+to get updates from others:
+git pull origin master (pull globalMaster to aaronBranch- local repository on this device)
+content should automatically be updated
